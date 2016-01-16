@@ -1,0 +1,43 @@
+
+#church2{-webkit-animation-delay: .2s;}
+#church3{-webkit-animation-delay: .5s;}
+
+#banner{
+	background: url('../images/churchHeader.png') top left no-repeat;
+	padding-bottom:170px;
+	width:100%;
+	
+}
+.row{
+	padding-bottom:80px;
+}	
+
+
+.church{
+	padding-bottom: 40px;
+}
+
+.triChurch > .container> .row > .col-md-6 > h4{
+	padding-bottom: 8px;
+	font-family: 'Roboto', sans-serif;
+	color: #6C7A89;
+	
+
+}
+
+.triChurch > .container> .row > .col-md-6 > p{
+		font-family: 'Source Sans Pro', sans-serif;
+		
+
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+
+@media only screen and (max-width:480px){
+	#banner{
+		background: url('../images/churchHeaderSm.png') top center no-repeat;
+	}
+}

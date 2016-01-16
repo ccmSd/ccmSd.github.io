@@ -1,0 +1,293 @@
+
+/* Animation */
+
+
+.navbar-brand{-webkit-animation-delay: .4s;}
+.hex{ -webkit-animation-delay: .3s;}
+.hex2{ -webkit-animation-delay: .5s;}
+.hex3{ -webkit-animation-delay: .7s;}
+
+/* -----------nav bar------------*/
+
+
+body {
+   background:#ECECEC!important;
+}
+
+.navbar-default{
+	background-color: #22313F;
+	height: 70px;
+	min-width:100%;
+}
+
+
+.navbar{
+	position: -webkit-sticky;
+	top:0px;
+	margin-bottom:0px !important;
+	border-radius: 0 !important;
+	z-index:3;
+}
+
+
+ .navbar-brand,
+.navbar-nav li a{
+	height: 68px;
+	margin-left:1px;
+	background-color: #22313F;
+	border-right: 1px solid #393939;
+	
+	}
+
+/* made a dup to fix logo padding bug*/
+.navbar-nav li a{
+	line-height:70px;
+	padding:0 20px;
+}
+	
+.navbar-brand{
+	line-height:40px !important;
+}
+#logo{
+	width: 200px;
+	height: 66.67px;
+	padding-bottom:5px;
+	
+}	
+
+
+.navbar-default .navbar-nav> li>a{
+	font-size:17px;
+	font-family: 'Poiret One', cursive;
+	color: #E4F1FE;
+	letter-spacing: 2px;
+	}
+.navbar-default .navbar-nav> li>a:visited{
+	color: #E4F1FE;
+}
+
+
+.navbar-default .navbar-nav> li>a:hover{
+	
+	color:#fff;
+	background-color: #34495E;
+	}	
+	
+	
+.navbar-default .navbar-nav> li>a:visited{
+	color: #E4F1FE;
+}
+
+.navbar-default .navbar-nav>dropdown-menu{
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a{ 
+	color: #E4F1FE ;
+	background-color: red;
+}
+
+
+/* -------------------------------Carousel Stuff-------------------------*/
+
+#myCarousel .item{
+	height:390px;
+}
+
+#slide1{
+	background: url('../images/slide1.png') top center no-repeat;
+}
+#slide2{
+	background: url('../images/slide2.png') top center no-repeat;
+}
+
+#slide3{
+	background: url('../images/slide3.png') top center no-repeat;
+}
+
+
+
+
+.btn-primary a{
+	color:#fff;
+}
+#buttonChurch  {
+	 background-color: #F9690E;
+	 border: 1px solid #FDE3A7;
+	 -webkit-border-radius:5px;
+}
+
+
+
+
+/* -------------------- chumpy footer ---------------- */
+
+.footer  {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+	background: url('../images/footerBack.png') top center no-repeat;
+    
+}
+
+#foo{
+	color: #6C7A89;
+	font-size: 16px;
+    display: block;
+	top: 500px;
+    -webkit-margin-before: 8em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+/* ----------- made a dup to control distance better -----------------*/
+#foo2{
+	color: #6C7A89;
+	font-size: 16px;
+    display: block;
+	top: 500px;
+    -webkit-margin-before: .9em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+
+
+
+
+/* --------------- the grid ---------------*/
+
+
+
+.grid{
+	padding-top:40px;
+	padding-bottom:10px;
+	
+	
+}
+
+.row h2{
+	padding-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #6C7A89;
+	
+}
+.row p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+
+}
+
+.hex{
+	padding-bottom: 10px;
+	
+}
+
+.hex2{
+	padding-bottom: 10px;
+}
+
+.hex3{
+	padding-bottom: 10px;
+}
+
+#welcomeRow{
+	background: url('../images/header.png') top center no-repeat;
+	padding-bottom:170px;
+	width:100%;
+	
+    
+}
+
+.col-sm-4{
+	padding-bottom:200px;
+	}
+
+
+
+/*	------------------ Media queries -----------------------*/
+
+
+
+
+
+@media only screen and (max-width:979px){
+	#slide1{
+	background: url('../images/slide1-med.png') top center no-repeat;
+	}
+	#slide2{
+		background: url('../images/slide2-med.png') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/slide3-med.png') top center no-repeat;
+	}
+	
+	#welcomeRow{
+	background: url('../images/header-med.png') top center no-repeat;
+	padding-bottom:160px;
+
+	}
+	
+}
+
+@media only screen and (max-width:768px){
+	#myCarousel .item{
+		height:320px;
+	}
+	
+	#slide1{
+		background: url('../images/slide1-sm.png') top center no-repeat;
+	}
+	#slide2{
+		background: url('../images/slide2-sm.png') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/slide3-sm.png') top center no-repeat;
+	}
+	
+	#welcomeRow{
+	background: url('../images/header-sm.png') top center no-repeat;
+	padding-bottom:100px;
+
+	}
+
+}
+
+@media only screen and (max-width:480px){
+	#myCarousel .item{
+		height:270px;
+	}
+	.carousel-caption h3{
+		font-size: 14px !important;
+	} 
+	#slide1{
+		background: url('../images/slide1-xsm.png') top center no-repeat;
+	}
+	#slide2{
+		background: url('../images/slide2-xsm.png') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/slide3-xsm.png') top center no-repeat;
+	}
+	
+	#welcomeRow{
+	background: url('../images/header-xsm.png') top center no-repeat;
+	padding-bottom:100px;
+
+	}
+	.col-sm-4{
+	padding-bottom:120px;
+	}
+
+
+}
+
+
+
+
